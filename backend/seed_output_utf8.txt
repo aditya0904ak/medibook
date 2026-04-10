@@ -1,0 +1,67 @@
+﻿[dotenv@17.3.1] injecting env (4) from .env -- tip: ΓÜí∩╕Å secrets for agents: https://dotenvx.com/as2
+MongoDB Connected: localhost
+≡ƒùæ  Clearing existing data...
+≡ƒæñ Creating admin user...
+node : Γ¥î Seed 
+failed: TypeError: 
+next is not a 
+function
+At line:1 char:1
++ node 
+scripts/seed.js > 
+seed_output.txt 
+2>&1; Get-Content 
+seed_output. ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Γ¥î See   
+ d failed... not     
+a function:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+    at 
+model.<anonymous> (D:
+\doctor_appointment\b
+ackend\models\User.js
+:49:5)
+    at async 
+Kareem.execPre (D:\do
+ctor_appointment\back
+end\node_modules\kare
+em\index.js:70:24)
+    at async 
+model.$__save (D:\doc
+tor_appointment\backe
+nd\node_modules\mongo
+ose\lib\model.js:371:
+5)
+    at async 
+model.save (D:\doctor
+_appointment\backend\
+node_modules\mongoose
+\lib\model.js:614:5)
+    at async D:\docto
+r_appointment\backend
+\node_modules\mongoos
+e\lib\model.js:2750:9
+    at async 
+Promise.all (index 0)
+    at async 
+Function.create (D:\d
+octor_appointment\bac
+kend\node_modules\mon
+goose\lib\model.js:27
+35:11)
+    at async 
+seedDatabase (D:\doct
+or_appointment\backen
+d\scripts\seed.js:172
+:23)
+
